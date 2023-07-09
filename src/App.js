@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import SignUp from './component/SignUp';
+import Login from './component/login';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isSignUp: true // Initially show the sign-up page
+    };
+  }
+
+  handleSwitchPage = () => {
+    this.setState((prevState) => ({
+      isSignUp: !prevState.isSignUp
+    }));
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.isSignUp ? <SignUp /> : <Login />}
+        <button className='switch' onClick={this.handleSwitchPage}>
+          {this.state.isSignUp ?  'Login': ''}
+        </button>
+        
+      </div>
+    );
+  }
 }
 
 export default App;

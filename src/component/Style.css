@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100&display=swap');
+/* start login page*/
+.main-login{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 72px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.contact-login p{
+    font-size: 20px;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   width: 460px;
+   line-height: 30px;
+   word-spacing: 5px;
+   padding-top: 10px;
+   padding-bottom: 70px;
+}
+
+.contact-login h5{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(105, 111, 121, 1);
+}
+
+.game{
+    transform: translate(250px ,-70px);
+    -webkit-transform: translate(250px ,-70px);
+    -moz-transform: translate(250px ,-70px);
+    -ms-transform: translate(250px ,-70px);
+    -o-transform: translate(250px ,-70px);
+}
+
+.login-page{
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 100px;
+    width: 35%;
+}
+
+.login-page h2{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.login-page p{
+    font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: rgba(134, 146, 166, 1);
+   padding-bottom: 25px;
+   text-align: center;
+
+}
+
+.icon {
+   text-align: center;
+}
+
+.icon img{
+    margin-right: 30px;
+    margin-bottom: 80px;
+ }
+
+  label{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: gray;
+   
+ }
+  input{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(134, 146, 166, 1);
+    padding-left: 15px;
+ }
+ 
+
+ .login-page button{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(21, 101, 216, 1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: none;
+}
+
+
+.second-div {
+    color: rgba(186, 186, 186, 1);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.second-div p{
+    padding: 0 25px;
+    font-size: 12px;
+}
+.lines{
+    width: 300px;
+    height: 2px;
+    border-bottom:2px solid rgba(186, 186, 186, 0.136);  
+}
+
+.login-page h5{
+    padding-top: 30px;
+    text-align: center;
+    color: rgba(105, 111, 121, 1);
+    font-size: 16px;
+}
+
+.login-page h5 a{
+    color: rgba(21, 101, 216, 1);
+    text-decoration: none;
+}
+.eyes{
+    transform: translate(330px ,-55px);
+    -webkit-transform: translate(330px ,-55px);
+    -moz-transform: translate(330px ,-55px);
+    -ms-transform: translate(330px ,-55px);
+    -o-transform: translate(330px ,-55px);
+}
+/* end login page*/
+
+/* start SignUp page*/
+.main-SignUp{
+    height:100vh;
+    width: 100%;
+    display: flex; 
+    justify-content: flex-start;
+}
+.contact-Sign-up{
+    background-image: url(./imge/backgroundforsignup.png);
+    padding-left: 80px;
+    width: 642px;
+    height: 130vh;
+}
+.logo-1{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-Sign-up p{
+    font-size: 20px;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   width: 460px;
+   line-height: 30px;
+   word-spacing: 5px;
+   padding-top: 10px;
+   padding-bottom: 70px;
+   color: rgba(255, 255, 255, 1);
+}
+
+.contact-Sign-up h5{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.Vector{
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.SignUp-page{
+    padding-top: 120px;
+    padding-right: 30px;
+    padding-left: 180px;
+    width: 40%;
+}
+
+.SignUp-page h2{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+}
+
+.SignUp-page p{
+    font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: rgba(134, 146, 166, 1);
+   padding-bottom: 25px;
+   padding-right: 20px;
+}
+
+.SignUp-page button{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(21, 101, 216, 1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: none;
+}
+.checkbox{
+    display: flex;
+    
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+.switch{
+    width: 26%;
+    height: 45px;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.08);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: none;
+    margin-top: 100px;
+    transform: translateX(825px);
+    -webkit-transform: translateX(825px);
+    -moz-transform: translateX(825px);
+    -ms-transform: translateX(825px);
+    -o-transform: translateX(825px);
+}
