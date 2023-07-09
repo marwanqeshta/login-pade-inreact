@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/login-pade-inreact/static/css/main.4031e11c.css",
+    "main.js": "/login-pade-inreact/static/js/main.3fff23bc.js",
+    "static/media/backgroundforsignup.png": "/login-pade-inreact/static/media/backgroundforsignup.0796ab0ad879e2bfa195.png",
+    "static/media/gamelogin.png": "/login-pade-inreact/static/media/gamelogin.899607da9aff55bcffb2.png",
+    "index.html": "/login-pade-inreact/index.html",
+    "main.4031e11c.css.map": "/login-pade-inreact/static/css/main.4031e11c.css.map",
+    "main.3fff23bc.js.map": "/login-pade-inreact/static/js/main.3fff23bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4031e11c.css",
+    "static/js/main.3fff23bc.js"
+  ]
+}
